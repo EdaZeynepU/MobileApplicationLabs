@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application2</string>
+    <string name="text1"> My First Android</string>
+    <string name="text2" />
+    <string name="butterfly">butterfly</string>
+    <string name="name">Name</string>
+    <string name="login">Login</string>
+    <string name="password">password</string>
+</resources>
