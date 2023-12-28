@@ -4,22 +4,13 @@ import android.graphics.Bitmap;
 import android.location.Location;
 
 public class Post {
-    private Bitmap image;
 
+    private Bitmap image ;
     private Location location;
+    private String message;
 
-    private String str;
-
-    public String getStr() {
-        return str;
-    }
-
-    public void setStr(String str) {
-        this.str = str;
-    }
-
-    public Bitmap getImage(Bitmap image) {
-        return this.image;
+    public Bitmap getImage() {
+        return image;
     }
 
     public void setImage(Bitmap image) {
@@ -32,5 +23,13 @@ public class Post {
 
     public void setLocation(Location location) {
         this.location = location;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
